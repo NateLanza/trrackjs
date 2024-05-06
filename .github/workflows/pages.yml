@@ -19,6 +19,9 @@ jobs:
 
       - name: Install yarn
         run: npm install -g yarn
+
+      - name: Install nx command
+        run: npm install -g nx
         
       - name: Install Dependencies
         run: yarn install
