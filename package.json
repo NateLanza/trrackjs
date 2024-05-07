@@ -14,7 +14,7 @@
     "build-affected-libs": "nx affected:build --exclude $(nx print-affected --type=app --select=projects)",
     "release": "nx affected --target=release --exclude $(nx print-affected --type=app --select=projects)"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@mantine/core": "^4.2.12",
     "@mantine/hooks": "^4.2.12",
