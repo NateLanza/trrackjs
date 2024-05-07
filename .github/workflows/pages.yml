@@ -33,7 +33,7 @@ jobs:
         run: yarn install
       
       - name: Build Project
-        run: npx nx run react-trrack-example:build --prod --skip-nx-cache
+        run: npx nx run react-trrack-example:build --prod --skip-nx-cache --base-href https://natelanza.github.io/trrackjs
       
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
